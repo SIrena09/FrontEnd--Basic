@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="handler.php" method="post">
+      
+        <h2>Личные данные</h2>
+        <label for="name">Введите имя и фамилию:</label>
+        <input type="text" id="name" name="name"><br><br>
+      
+        <label for="password">Введите пароль:</label>
+        <input type="password" id="password" name="password"><br><br>
+    
+    
+      
+        <label>Выберите пол:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Мужской</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Женский</label><br><br>
+      
+        <label>Выберите язык:</label><br>
+        <select name="language">
+          <option value="english">Английский</option>
+          <option value="russian">Русский</option>
+          <option value="french">Французский</option>
+          <option value="german">Немецкий</option>
+        </select><br><br>
+   
+      
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">Я согласен с условиями использования.</label><br>
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">Я согласен получать информацию посредством смс.</label><br>
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">Я согласен получать информацию посредством e-mail.</label><br>
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">Я согласен на использование личных данных.</label><br><br>
+
+        <textarea name="" id="" cols="30" rows="10"></textarea><br><br><br>
+      
+        <input type="image" src="https://th.bing.com/th/id/OIP.PL-A1Lb9zFZ6AJZ4nHDSsQHaCz?
+        w=331&h=132&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Register button" width="180">
+      </form>
+</body>
+</html>
