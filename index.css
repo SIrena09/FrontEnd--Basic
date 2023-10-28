@@ -1,0 +1,81 @@
+#i {
+    font-size: 40px;
+    font-weight: 200px;
+    margin-top: 120px;
+    font-family: 'Luminary', serif;
+    color: black;
+    text-indent: 200px;
+    text-transform: uppercase;
+
+}
+
+#love {
+    font-size: 100px;
+    font-weight: 300px;
+    margin-top: 120px;
+    font-family: 'Luminary', serif;
+    color: black;
+    text-indent: 300px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: -25px -10px 4px rgb(150, 25, 150);
+
+}
+
+#it {
+    font-size: 40px;
+    font-weight: 200px;
+    margin-top: 120px;
+    font-family: 'Luminary', serif;
+    color: black;
+    text-indent: 400px;
+    text-transform: uppercase;
+    text-decoration-line: overline;
+    
+
+}
+
+#very {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 40px;
+    letter-spacing: 20px;
+    font-family: 'Luminary', serif;
+    color: rgb(31, 17, 229);
+    text-indent: 450px;
+    text-transform: uppercase;
+
+}
+
+#much {
+    margin-top: 45px;
+    text-indent: 500px;
+    font-family: 'Luminary', serif;
+    text-transform: uppercase;
+}
+
+
+#m {
+    color: red;
+    font-size: 40px;
+    font-weight: 300px;
+}
+
+
+#u {
+    color: rgb(10, 144, 10);
+    font-size: 40px;
+    font-weight: 300px;
+}
+
+#c {
+    color: rgb(236, 181, 16);
+    font-size: 40px;
+    font-weight: 300px;
+}
+
+#h {
+    color: blue;
+    font-size: 40px;
+    font-weight: 300px;
+}
