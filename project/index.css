@@ -1,0 +1,516 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald';
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-image: linear-gradient(rgba(64, 65, 73, 0.9));
+    padding-top: 200px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNkfCDVUYcBqoWzM8_NqUtf3PsGLkSBcOETQ7P5co1j1ZvRl-OuXzxp5pJp4-NH9DbvBs&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main-header>h1 {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 54px;
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto 20px;
+    line-height: 94.85px;
+}
+
+.main-header>h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto 20px;
+    text-align: center;
+    max-width: 734px;
+}
+
+
+.medals {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 47px 0;
+    gap: 30px;
+}
+
+.medals>* {
+    flex-basis: 180px;
+}
+
+.number {
+    color: #F7654A;
+    font-weight: 500;
+    font-size: 72px;
+    text-align: center;
+    line-height: 106px;
+}
+
+.age {
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 53px;
+}
+
+.runok {
+    color: #999;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.arena-wrapper {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.arena-wrapper>h3 {
+    max-width: 506px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53.35px;
+    text-align: center;
+    margin: 0 auto 60px;
+    text-transform: uppercase;
+    color: rgb(115, 116, 121);
+}
+
+.arenas {
+    background-color: #fff;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.photo {
+    max-width: 100%;
+}
+
+.arenas>article>h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35.57px;
+    color: #404149;
+    margin: 60px 0 20px;
+    position: relative;
+}
+
+.arenas>article>h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -15px;
+    width: 55px;
+    height: 6px;
+    background-color: #F7654A;
+}
+
+.arenas>article>p {
+    margin-top: 20px;
+    max-width: 350px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: rgba(153, 153, 153, 1);
+    font-family: 'Open Sans';
+}
+
+
+.projects-wrapper {
+    width: 100%;
+    background-color: #F7654A;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    padding: 20px 0;
+
+}
+
+.best-projects {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left>h3 {
+    color: #ffffff;
+    max-width: 537px;
+    font-size: 48px;
+    line-height: 71.14px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+
+
+}
+
+.left>h4 {
+    color: #ffffff;
+    max-width: 537px;
+    font-size: 24px;
+    margin: 0 auto;
+    line-height: 35.57px;
+    font-weight: 700px;
+    text-transform: uppercase;
+
+
+}
+
+.right>button {
+    width: 175px;
+    height: 49px;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 20.75px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border: none;
+    outline: none;
+    margin-left: auto;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 1);
+
+
+}
+
+.right>button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+.cards-wrapper {
+    padding-top: 150px;
+
+}
+
+.cards-header {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-header>h4 {
+    max-width: 351px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 53.35px;
+    text-align: center;
+
+}
+
+.cards {
+    margin-top: 66px;
+    display: inline-grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 40%);
+    gap: 20px;
+     
+      
+}
+
+.cards>article {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    background-color: rgba(247, 247, 247, 1);
+}
+
+.fa-solid {
+    max-width: 60px;
+    max-height: 40px;
+    font-size: 48px;
+    line-height: 40.31px;
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+.cards>article>p {
+    width: 170px;
+    height: 62px;
+    font-weight: 500px;
+    font-size: 21px;
+    line-height: 31.12px;
+    letter-spacing: 0.35px;
+    margin-top: 40px;
+    margin-left: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contacts-wrapper {
+    padding-top: 120px;
+    margin: 0 auto;
+
+
+}
+
+.contacts-header {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-header>h3 {
+    max-width: 159px;
+    font-weight: 500px;
+    font-size: 36px;
+    line-height: normal;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.contacts {
+    align-items: center;
+    margin-top: 66px;
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 255px 255px 255px 255px;
+    gap: 30px;
+
+}
+
+.contacts>article {
+    max-width: 250px;
+    text-align: center;
+
+}
+
+.contacts>article>h4 {
+    padding-top: 36px;
+    color: #999;
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: normal;
+}
+
+.contacts>article>p {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.fa-regular {
+    width: 70px;
+    height: 30px;
+    font-size: 45px;
+    line-height: 40px;
+
+}
+
+.contacts>article:last-child {
+    height: 274px;
+}
+
+.contacts>article:last-child>h4 {
+    align-items: center;
+    padding-top: 30px;
+}
+
+.contacts>article:last-child>p>a {
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.main-footer {
+    background-color: rgba(64, 65, 73, 1);
+    height: 82px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.main-footer>p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: right;
+
+}
+@media (max-width: 1110px) {
+    .cards {
+        grid-template-columns: repeat(2, 60%);
+    }
+}
+
+
+@media screen and (max-width:750px) {
+    .main-header>h1 {
+        font-size: 34px;
+        line-height: 34px;
+        padding: 0 10px;
+    }
+
+    .main-header>h2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .arenas {
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+
+    .left h3 {
+        font-size: 36px;
+    }
+
+    .left h4 {
+        font-size: 16px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1, 70%);
+
+    }
+
+    .cards-header>h4 {
+        font-size: 30px;
+    }
+
+    .contacts {
+        flex-wrap: wrap;
+    }
+
+    .contacts-header>h3 {
+        font-size: 30px;
+    }
+
+    .contacts>article>h4 {
+        font-size: 20px;
+    }
+
+    .contacts>article>p {
+        font-size: 18px;
+    }
+
+    .fa-solid {
+        font-size: 40px;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+    .medals {
+        flex-wrap: wrap;
+    }
+
+    .age {
+        font-size: 24px;
+    }
+
+    .runok {
+        font-size: 16px;
+    }
+
+    .best-projects {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .left h3 {
+        font-size: 36px;
+    }
+
+    .left h4 {
+        font-size: 16px;
+    }
+
+    .right>button {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .cards-header>h4 {
+        font-size: 20px;
+    }
+
+    .cards>article>p {
+        font-size: 18px;
+
+    }
+
+    .contacts {
+        flex-wrap: wrap;
+    }
+
+    .contacts-header>h3 {
+        font-size: 24px;
+    }
+
+    .contacts>article>h4 {
+        font-size: 18px;
+    }
+
+    .contacts>article>p {
+        font-size: 16px;
+    }
+
+    .fa-solid {
+        font-size: 35px;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .medals>header {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .arenas {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .arenas h4 {
+        font-size: 18px;
+    }
+
+    .arenas p {
+        font-size: 12px;
+    }
+
+    .left h3 {
+        font-size: 28px;
+    }
+
+    .left h4 {
+        font-size: 14px;
+    }
+
+
+}
